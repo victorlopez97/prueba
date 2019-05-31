@@ -1,18 +1,67 @@
+.contenedor{
+
+}
+
+.encabezado{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{}
+
+.materia{}
+
+.integrantes{
+	margin-right: 20px;
+}
+
 
 #chat-box {
-    max-height: 500px;
-    min-height: 200px;
+   	max-height: 500px;
+    min-height: 350px;
     overflow: auto;
     background: #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.2);
+	box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.2);
 }
 
 .wrapper {
-    background: rgba(100,100,100,0.8);
+	display: flex;
+    padding: 10px;
+    width: 80%;
+
+    border: 1px solid #DDDFE2;
+	
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.2);
+	box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.2);
 }
 
+.izquierdo{
+	width: 50%;
+}
+.izquierdo img{
+	width: 100%;
+}
+
+
+
+
+.derecho{width: 50%;}
+
 body {
-    background: url(../img/robot.jpg);
+    background: url();
     background-repeat: no-repeat;
     background-attachment: scroll;
     font-family: 'Nunito', sans-serif;
 }
+
+.form-enviar{display: flex;}
